@@ -53,7 +53,7 @@ const data = {
                 caption: "Programming languages",
                 values: {
                     "Familiar": ["C++", "C#", "Pascal", "JavaScript", "TypeScript", "HTML", "CSS", "Lua"],
-                    "Known": ["SQL", "Python"],
+                    "Known": ["SQL", "PHP", "Python"],
                 },
             },
             {

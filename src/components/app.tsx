@@ -8,6 +8,7 @@ const data = {
     github: "https://github.com/0x2E757/",
     gender: "Male",
     dateofbirth: "19/02/1995",
+    location: "Daugavpils, Latvia",
     table: {
         "Language Skills": [
             {
@@ -106,6 +107,10 @@ export class App extends React.Component {
                 <span>
                     <span>Date of birth:</span>
                     {data.dateofbirth}
+                </span>
+                <span>
+                    <span>Location:</span>
+                    {data.location}
                 </span>
             </div>
 

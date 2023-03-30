@@ -139,13 +139,15 @@ export class App extends React.Component {
                                     {"caption" in tableItem && <div className="caption">{tableItem.caption}</div>}
                                     {"place" in tableItem && <div className="place">{tableItem.place}</div>}
                                     {_.map(tableItem.values, (values, name) => (
-                                        <div key={name} className="values">
-                                            {name && <span>{name}:</span>}
-                                            {_.flatten(_.map(values, (value: string, index) => [
-                                                index > 0 && <span key={index} className="delimiter">|</span>,
-                                                value,
-                                            ]))}
-                                        </div>
+                                        <ul key={name} className="values">
+                                            {name && <li className="label">{name}:</li>}
+                                            {_.map(values, (value: string, index) => (
+                                                <li className="list-item">
+                                                    {index > 0 && <span key={index} className="delimiter">|</span>}
+                                                    {value}
+                                                </li>
+                                            ))}
+                                        </ul>
                                     ))}
                                 </td>
                             </tr>

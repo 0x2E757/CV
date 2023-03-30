@@ -61,7 +61,7 @@ const data = {
                 caption: "Tools & technologies",
                 values: {
                     "Familiar": ["Git", ".NET", "Node.js", "Npm", "Webpack", "Express", "React", "Redux", "Bootstrap"],
-                    "Known": ["Unity", "CMake", "Gulp", "LESS", "GitHub CI", "Azure CI", "Shell Scriping"],
+                    "Known": ["ASP.NET", "Unity", "Electron", "Postman", "CMake", "Gulp", "LESS", "GitHub CI", "Azure CI", "Shell Scriping"],
                 },
             },
         ],

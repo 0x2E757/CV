@@ -72,7 +72,7 @@ const projectInfoValues: ProjectInfo[] = [
     place: "Geidans Solutions",
     position: "Frontend Developer",
     start: "2016",
-    end: "2020",
+    end: "2018",
     link: "https://tap.anjumhotels.com",
     details: [
       `Handled most of UI tasks, developed core components, actively worked on UI and UX improvements.
